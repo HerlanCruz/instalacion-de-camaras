@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #222;
+    color: rgb(112, 39, 39);
+    padding: 15px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sección Hero */
+.hero {
+    background: url('camaras\ de\ seguridad.jpg') no-repeat center center/cover;
+    color: rgb(161, 88, 40);
+    padding: 60px 20px;
+}
+
+/* Contenido */
+.contenido {
+    padding: 40px 20px;
+    background: #f4f4f4;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Botón de WhatsApp */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp img {
+    width: 50px;
+}
